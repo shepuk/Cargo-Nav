@@ -7,7 +7,7 @@ CONTENTS
 2. Main Nav & Mega Menu
 3. Hero
 4. Animations
-5. Media Queries (In same Order)
+5. Media Queries
 */
 
 /* ------------------------------ GENERAL & SIDEWIDE STYLES */
@@ -109,7 +109,7 @@ button {
     top: 0;
     left: 0;
     width: 100%;
-    max-width: 1388px; /* From XD */
+    max-width: 1388px;
     height: 100%;
     background: linear-gradient(to right, #00182e 0%, rgba(0, 24, 46, 0) 100%);
   }
@@ -158,14 +158,12 @@ button {
   }
 
   .logo {
-    /* padding: 10px 30px; */
     display: flex;
     align-items: center;
     margin-bottom: -10px;
   }
 
   .main-navigation {
-    /* position: relative; */
     display: flex;
     justify-content: center;
 
@@ -309,7 +307,6 @@ button {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 .nav-cta-button {
@@ -412,10 +409,9 @@ button {
   stroke-dashoffset: -64px;
 }
 
-body:has(.hamburger.active){
+body:has(.hamburger.active) {
   overflow: hidden;
 }
-
 
 /* ------------------------------ MOBILE MENU */
 
@@ -443,7 +439,7 @@ body:has(.hamburger.active){
   }
 
   * {
-    fill : #000;
+    fill: #000;
     align-self: center;
     justify-self: center;
   }
@@ -618,7 +614,7 @@ body:has(.hamburger.active){
   }
 
   .nav-cta {
-    justify-content: center!important;
+    justify-content: center !important;
   }
   .hamburger {
     display: flex;
@@ -626,9 +622,8 @@ body:has(.hamburger.active){
 }
 
 @media only screen and (max-width: 768px) {
-
   .hero-nav {
-    padding: 10px 20px!important;
+    padding: 10px 20px !important;
   }
 
   .active-sticky-nav > nav {
@@ -651,32 +646,30 @@ body:has(.hamburger.active){
   .hero-paragraph {
     font-size: 14px;
   }
-  
+
   .hamburger {
     margin-right: -20px;
     margin-top: -10px;
   }
   .nav-cta {
-    display: none!important;
+    display: none !important;
   }
 
-  .hero-image, .hero-alt-image {
-    background-position: 75%!important;
+  .hero-image,
+  .hero-alt-image {
+    background-position: 75% !important;
   }
 
   .image-timer {
     padding: 40px 0;
   }
 
-
-.mobile-nav-cta-button {
-  display: block;
+  .mobile-nav-cta-button {
+    display: block;
+  }
 }
-}
 
-
-
-
+/* Buffer zone to enable some scrolling on the page */
 .fake-content-for-scrolling {
   width: 100%;
   height: 50vh;
