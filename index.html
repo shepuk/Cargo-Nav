@@ -14,6 +14,7 @@
     <div class="full-height-homepage-container">
 
     <!-- Information Banner -->
+    <div>
     <div id="info-banner" class="info-banner">
       <div></div>
       <div class="info-banner-message">
@@ -24,6 +25,22 @@
         <a href="#"> Page Link </a>
       </div>
     </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#">About</a>
+    <a href="#">Our Team</a>
+    <a href="#">Services</a>
+    <a href="#">News</a>
+    <a href="#">Events</a>
+    <form action="#">
+              <button type="submit" class="mobile-nav-cta-button nav-cta-button">
+                Contact Us
+                <img src="./assets/icons/arrow-right.svg" />
+              </button>
+            </form>
+  </div>
 
     <div class="nav-and-hero-container">
 
@@ -33,7 +50,7 @@
 
       <div id="nav-container">
         <nav id="hero-nav" class="hero-nav">
-          <div class="logo">
+          <div id="logo" class="logo">
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="102.672" height="32.487" viewBox="38.73 117 102.672 32.487"><g data-name="Group 875"><g data-name="Group 6" transform="translate(38.73 117)" clip-path="url(&quot;#a&quot;)"><g data-name="Group 1"><path d="M14.971 8.166c-.261-2.289-1.566-3.813-4.787-3.813-3.656 0-5.44 3.095-5.44 6.64 0 3.59 1.654 6.642 5.745 6.642 2.785 0 3.917-1.257 4.526-3.365h4.744c-.653 4.35-3.743 7.717-9.618 7.717C3.526 21.987 0 16.693 0 10.994 0 5.34 3.525 0 10.096 0c6.615 0 9.314 4.128 9.618 8.166h-4.744Z" fill="#fff" fill-rule="evenodd" data-name="Path 1"/></g><g data-name="Group 2"><path d="M42.466.539v20.91h-4.743V18.62c-1.263 2.11-3.917 3.366-6.267 3.366-6.18 0-10.402-5.07-10.402-10.993C21.054 5.07 25.275 0 31.456 0c2.35 0 5.004 1.256 6.267 3.366V.54h4.743Zm-4.743 10.455c0-3.59-2.35-6.642-6.006-6.642-3.569 0-5.919 3.053-5.919 6.642 0 3.589 2.35 6.64 5.919 6.64 3.656 0 6.006-3.051 6.006-6.64" fill="#fff" fill-rule="evenodd" data-name="Path 2"/></g><g data-name="Group 3"><path d="M58.054 5.07c-.74-.178-1.13-.224-1.87-.224-4.048 0-6.268 2.378-6.268 7.582v9.02h-4.743V.538h4.743v3.366C50.83 1.974 53.485.27 56.184.27c.74 0 1.349.088 1.87.313V5.07Z" fill="#fff" fill-rule="evenodd" data-name="Path 3"/></g><g data-name="Group 4"><path d="M79.62 22.48c0 3.5-1.045 6.013-2.917 7.628-1.87 1.615-4.57 2.378-7.964 2.378-3.395 0-5.875-1.076-7.573-2.69-1.697-1.616-2.567-3.77-2.698-5.969h4.788c.261 2.243 2.002 4.263 5.44 4.263 3.786 0 6.093-1.662 6.093-5.61v-3.859c-1.263 2.11-3.917 3.367-6.268 3.367-6.18 0-10.4-5.07-10.4-10.994C58.12 5.07 62.34 0 68.52 0c2.351 0 5.005 1.256 6.268 3.366V.54h4.743l.088 21.941ZM62.864 10.994c0 3.589 2.35 6.64 5.919 6.64 3.656 0 6.006-3.051 6.006-6.64 0-3.59-2.35-6.642-6.006-6.642-3.57 0-5.92 3.053-5.92 6.642" fill="#fff" fill-rule="evenodd" data-name="Path 4"/></g><g data-name="Group 5"><path d="M81.26 10.994C81.26 5.07 85.48 0 91.922 0c6.528 0 10.75 5.07 10.75 10.994 0 5.923-4.222 10.993-10.75 10.993-6.441 0-10.662-5.07-10.662-10.993m16.668 0c0-3.59-2.35-6.642-6.006-6.642-3.568 0-5.918 3.052-5.918 6.642 0 3.589 2.35 6.641 5.918 6.641 3.656 0 6.006-3.052 6.006-6.641" fill="#fff" fill-rule="evenodd" data-name="Path 5"/></g></g></g><defs><clipPath id="a"><path d="M0-29.66h102.672v-32.486H0v32.486Z" data-name="Path 6" transform="translate(0 62.146)"/></clipPath></defs></svg>
             </a>
@@ -78,6 +95,20 @@
               </button>
             </form>
           </div>
+          <div id="hamburger" class="hamburger">
+            <svg id="ham" class="ham hamRotate" viewBox="0 0 100 100" width="80">
+              <path
+                    class="line top"
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+              <path
+                    class="line middle"
+                    d="m 30,50 h 40" />
+              <path
+                    class="line bottom"
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+            </svg>
+            
+          </div>
         </nav>
     </div>
 
@@ -121,15 +152,27 @@
       const navSpacer = document.getElementById("nav-spacer");
       const infoBannerHeight = document.getElementById("info-banner").offsetHeight;
       const navHeight = navBar.offsetHeight;
+      const hamBurgerLines = document.getElementsByClassName('line'); 
+      const logo = document.getElementById("logo");
 
-      window.addEventListener('scroll', () => {
+
+      const setStickyNav = window.addEventListener('scroll', () => {
         let scrollPosition = window.scrollY;
         if (scrollPosition > infoBannerHeight + 20) {
           navSpacer.style.height = `${navHeight}px`;
           navBar.classList.add('active-sticky-nav');
+          
+          for (const line of hamBurgerLines) {
+            line.style.stroke = '#000';
+          }
+          
         } else {
           navSpacer.style.height = 0;
           navBar.classList.remove('active-sticky-nav');
+
+          for (const line of hamBurgerLines) {
+            line.style.stroke = '#fff';
+          }
         }
     });
 
@@ -138,6 +181,8 @@
     const menuToggle = document.querySelector('.menu-toggle');
     const megaMenu = document.querySelector('.mega-menu-dropdown');
     const megaBuffer = document.querySelector('.mega-hover-buffer');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburger = document.getElementById('ham');
 
     const megaMenuElements = [
       menuToggle,
@@ -169,6 +214,22 @@
         console.log('you left!')
       });
     });
+    
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+      
+      for (const line of hamBurgerLines) {
+        hamburger.classList.contains('active') ? line.style.stroke = '#000' : line.style.stroke = '#fff';
+        mobileMenu.classList.contains('active') ? line.style.stroke = '#000' : line.style.stroke = '#fff';
+        navBar.classList.contains('active-sticky-nav') ? line.style.stroke = '#000' : line.style.stroke = '#000';
+        !hamburger.classList.contains('active') && !navBar.classList.contains('active-sticky-nav') ? line.style.stroke = '#fff' : line.style.stroke = '#000';
+      }
+      hamburger.classList.contains('active') ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'visible';
+      hamburger.classList.contains('active') ? logo.classList.add('fill-black') : logo.classList.remove('fill-black');
+
+    });
+
     </script>
   </body>
 </html>
